@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dongle&family=Kanit:wght@300&family=Patua+One&family=Roboto+Slab:wght@200&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dongle&family=Kanit:wght@300&family=Oswald:wght@200&family=Patua+One&family=Roboto+Slab:wght@200&family=Rubik+Wet+Paint&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+          background-color: rgb(15, 15, 16);
+  
+}
+.main_head {
+          display: flex;
+
+
+}
+
+.nav-list ul{
+          display: flex;
+          padding: 29px;
+          
+}
+.nav-list ul li{
+         list-style: none;
+         font-size: 25px;
+         padding: 10px;
+         color: #fff;
+         
+
+}
+
+.logo{
+          padding:30px;
+          color: #fffcf5;
+          font-family:'Times New Roman', Times, serif;
+}
+
+.parent_container{
+          box-shadow: rgba(236, 239, 241, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(210, 215, 223);
+}
+
+.main_contanier {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-top: 10rem;
+          
+
+}
+
+#btn {
+          background-color: #d0a23a;
+          color: #fffcfc;
+          margin: 20px;
+          padding: 10px;
+          border-style: none;
+          font-size: 15px;
+          border-radius: 10px;
+          cursor: pointer;
+}
+
+#btn:hover{
+          background-color: #070707;
+}
